@@ -1,0 +1,19 @@
+import React,{useContext} from 'react'
+import MyContext
+ from '../useContext/MyContext';
+ 
+const People = () => {
+const { money, counter, setCounter } = useContext(MyContext);
+
+  return (
+    <>
+    <div>
+       <h1>Village level</h1>
+      <h2>Money: ₹{money}</h2>
+      <h2>Counter: {counter}</h2>
+    </div>
+    </>
+  )
+}
+
+export default People;
