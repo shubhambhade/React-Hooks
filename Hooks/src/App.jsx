@@ -7,6 +7,14 @@ import ChangeBg from './useLayoutEffect/ChangeBg';
 import IndianGov from './props Drilling/IndianGov';
 import MoneyState from './useContext/MoneyState';
 import MyContext from './useContext/MyContext';
+import People from './props Drilling/People';
+import UseReducer from './useReducer/UseReducer';
+import UseMemo from './useMemo/UseMemo';
+import Index from './useCallback/Index';
+import IndexTransition from './useTransition/IndexTransition';
+import IndexUseRef from './useRef/IndexUseRef';
+import UseID from './useId/UseID';
+import CustomHookIndex from './custom hook/CustomHookIndex';
 
 const App = () => {
   return (
@@ -16,7 +24,15 @@ const App = () => {
     {/* <Api_Fetch_Data/> */}
     {/* <ChangeBg/> */}
     {/* <IndianGov/> */}
-    
+    {/* <People/> */}
+    {/* <UseReducer/> */}
+    {/* <UseMemo/> */}
+    {/* <Index/> */}
+    {/* <IndexTransition/> */}
+    {/* <IndexUseRef/> */}
+    {/* <UseID/> */}
+
+    <CustomHookIndex/>
 
     </>
   )
